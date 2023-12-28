@@ -29,58 +29,6 @@ for (int l = 0; l < 5; l++) {
 	}
 		cout << dizi[l] << endl;
 }
-
-
-
-
-
-
-
-
 		return 0;
 }
 	 
-
-
-
-
-
-/*
-	int dizi[] = { 7,15,35,65,75,72,89,92,23,46 };
-	int tutucu;                                            //BUBLE SORT	
-	for (int k = 0; k < 10; k++)
-	{
-		for (int i = 0; i < 9; i++)
-		{
-			if (dizi[i] > dizi[i + 1])
-			{
-				tutucu = dizi[i];
-				dizi[i] = dizi[i + 1];
-				dizi[i + 1] = tutucu;
-			}
-		}
-	}
-	for (int i = 0; i < 10; i++)
-	{
-		cout << dizi[i] << endl;
-	}
-{ */
-
-/*
-string x;                           //SANSÜRLEME ÖRNEĞİ
-char gecici;
-cout << "lutfen bir kelime giriniz: ";
-cin >> x;
-
-for (  int i = 0; i < x.length(); i++)
-{
-	gecici = x[i];
-
-	if (gecici== 'a' ||gecici ==  'u' ||gecici== 'e' ||gecici== 'A' ||gecici== 'E' ||gecici== 'U' ||gecici== 'i' ||gecici== 'I'||gecici== 'o') {
-
-		x[i] = '*';
-	}
-
-}
-cout<<x<<endl;
-*/
